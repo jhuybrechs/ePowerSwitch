@@ -11,7 +11,7 @@ class EPSCoordinator(DataUpdateCoordinator):
         super().__init__(
             hass,
             _LOGGER,
-            name=f"EPS {host}",
+            name=f"ePowerSwitch {host}",
             update_interval=timedelta(seconds=10),
         )
 
@@ -24,8 +24,8 @@ class EPSCoordinator(DataUpdateCoordinator):
     @property
     def device_info(self):
         return {
-            "identifiers": {("eps_8m", self.host)},
-            "name": f"EPS 8M+ ({self.host})",
+            "identifiers": {("ePowerSwitch", self.host)},
+            "name": f"ePowerSwitch 8M+ ({self.host})",
             "manufacturer": "ePowerSwitch",
             "model": "8M+",
         }
