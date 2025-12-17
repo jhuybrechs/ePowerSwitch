@@ -1,7 +1,0 @@
-restart_port:
-  name: Restart port
-  description: Restart a port (off → wait → on)
-  fields:
-    port:
-      required: true
-      example: 1
