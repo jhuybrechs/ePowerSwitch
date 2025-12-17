@@ -1,0 +1,10 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ePowerSwitch 8M+",
+        "description": "Ajouter un ePowerSwitch 8M+"
+      }
+    }
+  }
+}
