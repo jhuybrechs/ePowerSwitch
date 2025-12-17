@@ -8,7 +8,7 @@ class EPSConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     async def async_step_user(self, user_input=None):
         if user_input is not None:
             return self.async_create_entry(
-                title=f"EPS 8M+ ({user_input['host']})",
+                title=f"ePowerSwitch 8M+ ({user_input['host']})",
                 data=user_input
             )
 
