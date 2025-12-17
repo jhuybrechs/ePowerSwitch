@@ -1,0 +1,7 @@
+{
+  "domain": "eps_8m",
+  "name": "ePowerSwitch 8M+",
+  "version": "0.1.0",
+  "config_flow": true,
+  "iot_class": "local_polling"
+}
