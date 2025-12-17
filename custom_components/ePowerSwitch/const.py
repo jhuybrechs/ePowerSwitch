@@ -1,3 +1,3 @@
-DOMAIN = "eps_8m"
+DOMAIN = "ePowerSwitch"
 MANUFACTURER = "ePowerSwitch"
 MODEL = "8M+"
